@@ -1,0 +1,5 @@
+GRANT SELECT ON *.* TO 'adminP4Y'@'%';
+
+GRANT SELECT, INSERT, UPDATE, DELETE, REFERENCES, SHOW VIEW, TRIGGER ON `photoforyou`.`utilisateur` TO 'adminP4Y'@'%' WITH GRANT OPTION;
+
+mdp: Azerty11
